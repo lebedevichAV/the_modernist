@@ -1,0 +1,109 @@
+$x-white: #fff;
+$x-light-grey: #979797;
+$x-medium-grey: #6b6b6b;
+$x-grey: #333;
+$x-dark-grey: #303030;
+$x-light-black: #222;
+$x-black: #2b2b2b;
+$x-dark-black: #000;
+$x-dark-red: #290000;
+$x-red: #660000;
+$x-green: #76c38f;
+
+$border-radius: 10px;
+$transition: 0.2s;
+$color: $x-light-grey;
+$primary-title-color: $x-white;
+$secondary-title-color: $x-dark-grey;
+
+$header-background-color: $x-dark-red;
+$header-border-top: $x-green;
+$header-logo-primary-color: $x-white;
+$header-logo-secondary-color: $x-light-grey;
+$header-nav-color: $x-white;
+$header-nav-background-color-hover: $x-green;
+$nav-icon-close-color: $x-white;
+$nav-icon-color-hover: $x-green;
+$nav-background-color-aside: $x-red;
+
+$slider-background-color: $x-dark-red;
+$slider-arrow-color: $x-green;
+$slider-img-border: 25px solid $x-medium-grey;
+$slider-img-border-350: 15px solid $x-medium-grey;
+
+$cards-section-background-color: $x-red;
+
+$top-card-background-color: $x-white;
+$top-card-background-color-hover: $x-green;
+$top-card-title-color-hover: $x-white;
+$top-card-color-hover: $x-white;
+
+$bottom-cards-border-top: 3px solid $x-dark-grey;
+$bottom-cards-title-background: $x-dark-grey;
+$bottom-cards-title-color: $x-white;
+
+$bottom-card-border: 5px solid $x-white;
+$bottom-card-border-hover: 5px solid $x-green;
+$bottom-card-description-background: $x-dark-black;
+$bottom-card-description-color: $x-white;
+
+$info-section-background-color: $x-dark-grey;
+$info-section-title-color: $x-white;
+$info-section-link-color: $x-green;
+$info-section-link-color-hover: $x-white;
+$info-section-border: 1px solid $x-dark-black;
+
+$from-the-blog-title-color: $x-green;
+$from-the-blog-author-color: $x-green;
+$from-the-blog-site-color: $x-medium-grey;
+
+$quick-links-item-border: 1px solid rgba($x-light-grey, 0.3);
+
+$latest-tweets-author-color: $x-green;
+
+$form-input-background-color: $x-light-black;
+$form-input-color: $color;
+
+$footer-background-color: $x-black;
+
+$button-color: $x-dark-grey;
+$button-color-hover: $x-white;
+$button-background-color: $x-green;
+
+%default-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  color: $color;
+}
+
+%nav-text {
+  font-size: 0.8125rem;
+  line-height: 0.975rem;
+  text-transform: uppercase;
+  color: $header-nav-color;
+}
+
+%primary-title-text {
+  font-size: 2.875rem;
+  line-height: 2.875rem;
+  font-weight: 400;
+  color: $primary-title-color;
+  @media (max-width: 480px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+%primary-title-text-adaptive {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+%button-text {
+  font-size: 0.8125rem;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $button-color;
+}
